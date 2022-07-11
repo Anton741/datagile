@@ -1,0 +1,30 @@
+.root {
+    font-family: 'Rubik', serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in 0s;
+    border: none;
+}
+
+.delete{ 
+  background: red;
+  color:azure;
+}
+
+.standart{
+  padding: 10px 25px;
+  border-radius: 7px;
+}
+
+.iconButton{
+  background:transparent;
+  margin:10px;
+}
+.iconButton svg{
+  width: 20px;
+  height: 20px;
+}
+
+.iconButton:disabled{
+  filter: saturate(0%);
+}
